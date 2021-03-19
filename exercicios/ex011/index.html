@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias no HTML5</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>As imagens flexíveis fazem com que o navegador possa carregar a imagem certa para cada situação.</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Foto tamanho padrão">
+    </picture>
+
+    <h1>Áudios</h1>
+    <p>O raciocínio lógico para incluir áudio no site, é o mesmo.</p>
+    <p>Precisa estar atento aos atributos da tag audio.</p>
+
+        <audio preload="auto" controls autoplay>
+            <source src="midia/guanacast-33.mp3" type="audio/mp3">
+            <source src="midia/happy-mistake.mp3" type="audio/mp3">
+        </audio>
+
+        <p>É possível fazer o download dos arquivos também:
+            <ul>
+                <li><a href="midia/guanacast-33.mp3" download="guanacast-33.mp3" type=audio/mpeg">Clique aqui.</a></li>
+                <li><a href="midia/happy-mistake.mp3" download="happy-mistake.mp3" type="audio/mpeg">Clique aqui.</a></li>
+            </ul>
+        </p>
+    
+</body>
+</html>
