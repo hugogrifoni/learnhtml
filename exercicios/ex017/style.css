@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+* {
+    border: 1px solid;
+}
+
 body {
     background-color: azure;
     color: blue;
@@ -7,19 +11,24 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* @media only screen and (min-width: 600px) {
+    body {
+        background-color: red;
+    }
+} */
+
 h1 {
     background-color: black; padding: 20px;
     color: coral;
 }
 
-.conteiner {
+.container {
     background-color: beige;
-    height: 100px;
-    width: 100px;
+    height: 300px;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: flex-start;
+    justify-content: space-between;
 }
 
 .item {
