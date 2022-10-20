@@ -1,0 +1,107 @@
+section.NavBar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    width: 1440px;
+    height: 80px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1440px;
+    height: 80px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 32px;
+    width: 1280px;
+    height: 44px;
+}
+
+.logotipo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    width: 148px;
+    height: 26.99px;
+}
+
+.logotipo img {
+    width: 27px;
+    height: 26.99px;
+}
+
+.logotipo p {
+    width: 113px;
+    height: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #3A404E
+}
+
+.nav_content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 40px;
+    width: 362px;
+    height: 32px;
+}
+
+.nav_content nav {
+    height: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #667085;
+}
+
+
+.sign_in {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 18px;
+    gap: 8px;
+    width: 112px;
+    height: 44px;
+    border-radius: 8px;
+}
+
+.entrar {;
+    width: 83px;
+}
+
+.cadastrar {
+    box-sizing: border-box;
+    width: 112px;
+    border: 1px solid #8E2424;
+    box-shadow: 0px 1px 2px 
+    rgba(16, 24, 40, 0.05);
+    background: #8E2424;
+    border-radius: 8px;
+    color: white;
+    height: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
