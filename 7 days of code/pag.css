@@ -8,6 +8,8 @@
 body {
     width: 1440px;
     height: 400px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 section.NavBar {
@@ -51,7 +53,7 @@ section.NavBar {
 }
 
 .logotipo p {
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -69,7 +71,7 @@ section.NavBar {
 
 .nav_content nav {
     height: 24px;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -98,7 +100,7 @@ section.NavBar {
     background: #8E2424;
     border-radius: 8px;
     color: white;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -138,6 +140,7 @@ section.NavBar {
     display: flex;
     text-align: justify;
     margin-left: 15px;
+    font-family: 'Inter', sans-serif;
 }
 
 .metricas-container div {
@@ -153,4 +156,33 @@ section.NavBar {
 .metricas-container p {
     color: var(--text-color);
     margin-right: 140px;
+}
+
+/* DAY 4 */
+.vagas-container {
+    display: flex;
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Inter', sans-serif;
+}
+
+.vagas-container span {
+    color: var(--main-color);
+    border-radius: 16px;
+    background: rgba(142, 36, 36, 0.05);
+    font-size: 14px;
+}
+
+.vagas-container h1 {
+    font-size: 25px;
+}
+
+.vagas-container p {
+    font-size: 15px;
+    color: var(--text-color);
+}
+
+.talentsVagas {
+    margin-left: auto;
+    margin-right: auto;
 }
