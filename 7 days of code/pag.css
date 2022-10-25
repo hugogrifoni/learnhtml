@@ -160,24 +160,24 @@ section.NavBar {
 
 /* DAY 4 */
 .vagas-container {
-    display: flex;
+    /* display: flex; */
     text-align: center;
     margin-top: 50px;
     font-family: 'Inter', sans-serif;
 }
 
-.vagas-container span {
+.talentsVagas span {
     color: var(--main-color);
     border-radius: 16px;
     background: rgba(142, 36, 36, 0.05);
     font-size: 14px;
 }
 
-.vagas-container h1 {
+.talentsVagas h1 {
     font-size: 25px;
 }
 
-.vagas-container p {
+.talentsVagas p {
     font-size: 15px;
     color: var(--text-color);
 }
@@ -185,4 +185,58 @@ section.NavBar {
 .talentsVagas {
     margin-left: auto;
     margin-right: auto;
+}
+
+/* DAY 5 */
+.designVagas {
+    margin: 0 auto;
+}
+
+.tituloVaga {
+    box-sizing: border-box;
+    border: 1px solid #EAECF0;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    padding: 24px 24px 28px;
+}
+
+.infosVaga {
+    color: var(--text-color);
+
+}
+
+/* DAY 6 */
+.depo-container {
+    margin-top: 55px;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'Inter', sans-serif;
+    padding: 10px;
+    max-width: 50%;
+    text-align: center;
+}
+
+.textMsg span {
+    font-size: 10px;
+    color: var(--main-color);
+}
+
+.textMsg h1 {
+    letter-spacing: 1px;
+}
+
+.imgMsg {
+    padding: 20px;
+}
+
+.imgMsg p {
+    font-size: 12px;
+}
+
+.imgMsg span {
+    color: var(--text-color);
+    font-size: 10px;
 }
